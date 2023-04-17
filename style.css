@@ -1,33 +1,47 @@
-        body {
-        background: url('https://static.espreso.tv/uploads/article/2719193/images/im-bez-wody.png');
+      * {
+        cursor:url("cursur.png"),default;
+       }
+      body {
+      margin: 0px;
+      }
+      .Page1 {
+        background: url('https://static.espreso.tv/uploads/article/2719193/images/im-bez-wody.png'); 
+        margin: 0px;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
       }
       .container-wrapper {
         display: flex;
         justify-content: space-around;
+        background: url(background.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;      
+        margin-left: 10%;
+        margin-right: 10%; 
+        padding: 50px;
       }
       .container {
-        height: auto;
-        width: calc(30% - 10px);
-        margin: 10px;
-        box-sizing: border-box;
-        text-align: center;
+        width: 30%;
         background-color: rgba(255, 255, 255, 0.4);
-        word-wrap: break-word;
-        border: 2px solid black;      
+        border: 2px solid black;
+        box-sizing: border-box;
+        padding: 1.5%;
       }
       h1 {
         font-family: "Trebuchet MS", sans-serif;
-        font-size: 36px;
+        font-size: 32px;
         font-weight: bold;
         text-align: center;
         word-wrap: break-word;
         width: 100%;
+        margin: 0px;
       }
       h2 {
         font-family: "Trebuchet MS", sans-serif;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: bold;
         text-align: center;
         word-wrap: break-word;
@@ -44,7 +58,12 @@
         border-color: black;
         border-width: 2px;
       }
-      img {
+      .Page1Img {
         border: 2px solid black;
-        width: 90%;
+        position: static;
+        width: 100%;
+      }
+      .BottomMenu {
+        background: rgb(7, 80, 27);
+        outline: rgb(7, 80, 27) solid 20px;
       }
